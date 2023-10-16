@@ -61,7 +61,7 @@ Upgrades
 [include letterb %n="spacebar" "%l="spacebar" %a="53"]
 [include letterb %n="." %l="dot" %a="54"]
 [include letterb %n="," %l="comma" %a="55"]
-[include letterb %n="!" %l="exclamationmark"%a="58"]
+[include letterb %n="!" %l="exclamationmark" %a="58"]
 [include letterb %n=":" %l="colon"%a="56"]
 [include letterb %n=";" %l="semicolon" %a="57"]
 *letterbackspace
@@ -204,7 +204,7 @@ Includes
         end
         end
 		on click:lose this
-*include letterb %l %a
+*include letterb %l %a %n
   *letter[%l]
     name:[%n]
     on click:
