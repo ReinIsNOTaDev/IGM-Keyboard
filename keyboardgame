@@ -58,7 +58,7 @@ Upgrades
 [include letter %l="x" %c="X" %a="24"]
 [include letter %l="y" %c="Y" %a="25"]
 [include letter %l="z" %c="Z" %a="26"]
-[include letterb %n="spacebar "%l="spacebar" %a="53"]
+[include letterb %n="spacebar" "%l="spacebar" %a="53"]
 [include letterb %n="." %l="dot" %a="54"]
 [include letterb %n="," %l="comma" %a="55"]
 [include letterb %n="!" %l="exclamationmark"%a="58"]
