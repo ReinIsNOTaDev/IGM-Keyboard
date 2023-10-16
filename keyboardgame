@@ -1,0 +1,208 @@
+Let's make a game!
+name:IGM Keyboard (Game)
+by:tgrein on discord
+desc:My keyboard.<//><//>Current Version: 2.2.1<//>Changelog:<//>Small fix for big change.<//><//>Full Changelog:<//>1.0:<//>The first version, 3 character limit, a-z, spacebar and backspace.<//>1.1:<//>Introducing, the 10 character limit! ....<//>2.0:<//>The 2.0 Update! Why jump a number? Because you can shift now.<//>2.1:<//>The 2.1 Update, also known as me fix bug. Oh and also Great Wall Of If Statements.<//>2.1.1:<//>More bugfixing, plus new layout! By the way, Shift looks like it toggles now.
+version:6
+Resources
+*text1
+*text2
+*text3
+*text4
+*text5
+*text6
+*text7
+*text8
+*text9
+*text10
+*text11
+*text12
+*text13
+*text14
+*text15
+*text16
+*shifttoggle
+*counter
+	on insert:
+		gain 1 counter
+	end
+*text
+	text:[?(text1 is 1)|a|][?(text1 is 2)|b|][?(text1 is 3)|c|][?(text1 is 4)|d|][?(text1 is 5)|e|][?(text1 is 6)|f|][?(text1 is 7)|g|][?(text1 is 8)|h|][?(text1 is 9)|i|][?(text1 is 10)|j|][?(text1 is 11)|k|][?(text1 is 12)|l|][?(text1 is 13)|m|][?(text1 is 14)|n|][?(text1 is 15)|o|][?(text1 is 16)|p|][?(text1 is 17)|q|][?(text1 is 18)|r|][?(text1 is 19)|s|][?(text1 is 20)|t|][?(text1 is 21)|u|][?(text1 is 22)|v|][?(text1 is 23)|w|][?(text1 is 24)|x|][?(text1 is 25)|y|][?(text1 is 26)|z|][?(text1 is 27)|A|][?(text1 is 28)|B|][?(text1 is 29)|C|][?(text1 is 30)|D|][?(text1 is 31)|E|][?(text1 is 32)|F|][?(text1 is 33)|G|][?(text1 is 34)|H|][?(text1 is 35)|I|][?(text1 is 36)|J|][?(text1 is 37)|K|][?(text1 is 38)|L|][?(text1 is 39)|M|][?(text1 is 40)|N|][?(text1 is 41)|O|][?(text1 is 42)|P|][?(text1 is 43)|Q|][?(text1 is 44)|R|][?(text1 is 45)|S|][?(text1 is 46)|T|][?(text1 is 47)|U|][?(text1 is 48)|V|][?(text1 is 49)|W|][?(text1 is 50)|X|][?(text1 is 51)|Y|][?(text1 is 52)|Z|][?(text1 is 53)| |][?(text1 is 54)|.|][?(text1 is 55)|,|][?(text2 is 1)|a|][?(text2 is 2)|b|][?(text2 is 3)|c|][?(text2 is 4)|d|][?(text2 is 5)|e|][?(text2 is 6)|f|][?(text2 is 7)|g|][?(text2 is 8)|h|][?(text2 is 9)|i|][?(text2 is 10)|j|][?(text2 is 11)|k|][?(text2 is 12)|l|][?(text2 is 13)|m|][?(text2 is 14)|n|][?(text2 is 15)|o|][?(text2 is 16)|p|][?(text2 is 17)|q|][?(text2 is 18)|r|][?(text2 is 19)|s|][?(text2 is 20)|t|][?(text2 is 21)|u|][?(text2 is 22)|v|][?(text2 is 23)|w|][?(text2 is 24)|x|][?(text2 is 25)|y|][?(text2 is 26)|z|][?(text2 is 27)|A|][?(text2 is 28)|B|][?(text2 is 29)|C|][?(text2 is 30)|D|][?(text2 is 31)|E|][?(text2 is 32)|F|][?(text2 is 33)|G|][?(text2 is 34)|H|][?(text2 is 35)|I|][?(text2 is 36)|J|][?(text2 is 37)|K|][?(text2 is 38)|L|][?(text2 is 39)|M|][?(text2 is 40)|N|][?(text2 is 41)|O|][?(text2 is 42)|P|][?(text2 is 43)|Q|][?(text2 is 44)|R|][?(text2 is 45)|S|][?(text2 is 46)|T|][?(text2 is 47)|U|][?(text2 is 48)|V|][?(text2 is 49)|W|][?(text2 is 50)|X|][?(text2 is 51)|Y|][?(text2 is 52)|Z|][?(text2 is 53)| |][?(text2 is 54)|.|][?(text2 is 55)|,|][?(text3 is 1)|a|][?(text3 is 2)|b|][?(text3 is 3)|c|][?(text3 is 4)|d|][?(text3 is 5)|e|][?(text3 is 6)|f|][?(text3 is 7)|g|][?(text3 is 8)|h|][?(text3 is 9)|i|][?(text3 is 10)|j|][?(text3 is 11)|k|][?(text3 is 12)|l|][?(text3 is 13)|m|][?(text3 is 14)|n|][?(text3 is 15)|o|][?(text3 is 16)|p|][?(text3 is 17)|q|][?(text3 is 18)|r|][?(text3 is 19)|s|][?(text3 is 20)|t|][?(text3 is 21)|u|][?(text3 is 22)|v|][?(text3 is 23)|w|][?(text3 is 24)|x|][?(text3 is 25)|y|][?(text3 is 26)|z|][?(text3 is 27)|A|][?(text3 is 28)|B|][?(text3 is 29)|C|][?(text3 is 30)|D|][?(text3 is 31)|E|][?(text3 is 32)|F|][?(text3 is 33)|G|][?(text3 is 34)|H|][?(text3 is 35)|I|][?(text3 is 36)|J|][?(text3 is 37)|K|][?(text3 is 38)|L|][?(text3 is 39)|M|][?(text3 is 40)|N|][?(text3 is 41)|O|][?(text3 is 42)|P|][?(text3 is 43)|Q|][?(text3 is 44)|R|][?(text3 is 45)|S|][?(text3 is 46)|T|][?(text3 is 47)|U|][?(text3 is 48)|V|][?(text3 is 49)|W|][?(text3 is 50)|X|][?(text3 is 51)|Y|][?(text3 is 52)|Z|][?(text3 is 53)| |][?(text3 is 54)|.|][?(text3 is 55)|,|][?(text4 is 1)|a|][?(text4 is 2)|b|][?(text4 is 3)|c|][?(text4 is 4)|d|][?(text4 is 5)|e|][?(text4 is 6)|f|][?(text4 is 7)|g|][?(text4 is 8)|h|][?(text4 is 9)|i|][?(text4 is 10)|j|][?(text4 is 11)|k|][?(text4 is 12)|l|][?(text4 is 13)|m|][?(text4 is 14)|n|][?(text4 is 15)|o|][?(text4 is 16)|p|][?(text4 is 17)|q|][?(text4 is 18)|r|][?(text4 is 19)|s|][?(text4 is 20)|t|][?(text4 is 21)|u|][?(text4 is 22)|v|][?(text4 is 23)|w|][?(text4 is 24)|x|][?(text4 is 25)|y|][?(text4 is 26)|z|][?(text4 is 27)|A|][?(text4 is 28)|B|][?(text4 is 29)|C|][?(text4 is 30)|D|][?(text4 is 31)|E|][?(text4 is 32)|F|][?(text4 is 33)|G|][?(text4 is 34)|H|][?(text4 is 35)|I|][?(text4 is 36)|J|][?(text4 is 37)|K|][?(text4 is 38)|L|][?(text4 is 39)|M|][?(text4 is 40)|N|][?(text4 is 41)|O|][?(text4 is 42)|P|][?(text4 is 43)|Q|][?(text4 is 44)|R|][?(text4 is 45)|S|][?(text4 is 46)|T|][?(text4 is 47)|U|][?(text4 is 48)|V|][?(text4 is 49)|W|][?(text4 is 50)|X|][?(text4 is 51)|Y|][?(text4 is 52)|Z|][?(text4 is 53)| |][?(text4 is 54)|.|][?(text4 is 55)|,|][?(text5 is 1)|a|][?(text5 is 2)|b|][?(text5 is 3)|c|][?(text5 is 4)|d|][?(text5 is 5)|e|][?(text5 is 6)|f|][?(text5 is 7)|g|][?(text5 is 8)|h|][?(text5 is 9)|i|][?(text5 is 10)|j|][?(text5 is 11)|k|][?(text5 is 12)|l|][?(text5 is 13)|m|][?(text5 is 14)|n|][?(text5 is 15)|o|][?(text5 is 16)|p|][?(text5 is 17)|q|][?(text5 is 18)|r|][?(text5 is 19)|s|][?(text5 is 20)|t|][?(text5 is 21)|u|][?(text5 is 22)|v|][?(text5 is 23)|w|][?(text5 is 24)|x|][?(text5 is 25)|y|][?(text5 is 26)|z|][?(text5 is 27)|A|][?(text5 is 28)|B|][?(text5 is 29)|C|][?(text5 is 30)|D|][?(text5 is 31)|E|][?(text5 is 32)|F|][?(text5 is 33)|G|][?(text5 is 34)|H|][?(text5 is 35)|I|][?(text5 is 36)|J|][?(text5 is 37)|K|][?(text5 is 38)|L|][?(text5 is 39)|M|][?(text5 is 40)|N|][?(text5 is 41)|O|][?(text5 is 42)|P|][?(text5 is 43)|Q|][?(text5 is 44)|R|][?(text5 is 45)|S|][?(text5 is 46)|T|][?(text5 is 47)|U|][?(text5 is 48)|V|][?(text5 is 49)|W|][?(text5 is 50)|X|][?(text5 is 51)|Y|][?(text5 is 52)|Z|][?(text5 is 53)| |][?(text5 is 54)|.|][?(text5 is 55)|,|][?(text6 is 1)|a|][?(text6 is 2)|b|][?(text6 is 3)|c|][?(text6 is 4)|d|][?(text6 is 5)|e|][?(text6 is 6)|f|][?(text6 is 7)|g|][?(text6 is 8)|h|][?(text6 is 9)|i|][?(text6 is 10)|j|][?(text6 is 11)|k|][?(text6 is 12)|l|][?(text6 is 13)|m|][?(text6 is 14)|n|][?(text6 is 15)|o|][?(text6 is 16)|p|][?(text6 is 17)|q|][?(text6 is 18)|r|][?(text6 is 19)|s|][?(text6 is 20)|t|][?(text6 is 21)|u|][?(text6 is 22)|v|][?(text6 is 23)|w|][?(text6 is 24)|x|][?(text6 is 25)|y|][?(text6 is 26)|z|][?(text6 is 27)|A|][?(text6 is 28)|B|][?(text6 is 29)|C|][?(text6 is 30)|D|][?(text6 is 31)|E|][?(text6 is 32)|F|][?(text6 is 33)|G|][?(text6 is 34)|H|][?(text6 is 35)|I|][?(text6 is 36)|J|][?(text6 is 37)|K|][?(text6 is 38)|L|][?(text6 is 39)|M|][?(text6 is 40)|N|][?(text6 is 41)|O|][?(text6 is 42)|P|][?(text6 is 43)|Q|][?(text6 is 44)|R|][?(text6 is 45)|S|][?(text6 is 46)|T|][?(text6 is 47)|U|][?(text6 is 48)|V|][?(text6 is 49)|W|][?(text6 is 50)|X|][?(text6 is 51)|Y|][?(text6 is 52)|Z|][?(text6 is 53)| |][?(text6 is 54)|.|][?(text6 is 55)|,|][?(text7 is 1)|a|][?(text7 is 2)|b|][?(text7 is 3)|c|][?(text7 is 4)|d|][?(text7 is 5)|e|][?(text7 is 6)|f|][?(text7 is 7)|g|][?(text7 is 8)|h|][?(text7 is 9)|i|][?(text7 is 10)|j|][?(text7 is 11)|k|][?(text7 is 12)|l|][?(text7 is 13)|m|][?(text7 is 14)|n|][?(text7 is 15)|o|][?(text7 is 16)|p|][?(text7 is 17)|q|][?(text7 is 18)|r|][?(text7 is 19)|s|][?(text7 is 20)|t|][?(text7 is 21)|u|][?(text7 is 22)|v|][?(text7 is 23)|w|][?(text7 is 24)|x|][?(text7 is 25)|y|][?(text7 is 26)|z|][?(text7 is 27)|A|][?(text7 is 28)|B|][?(text7 is 29)|C|][?(text7 is 30)|D|][?(text7 is 31)|E|][?(text7 is 32)|F|][?(text7 is 33)|G|][?(text7 is 34)|H|][?(text7 is 35)|I|][?(text7 is 36)|J|][?(text7 is 37)|K|][?(text7 is 38)|L|][?(text7 is 39)|M|][?(text7 is 40)|N|][?(text7 is 41)|O|][?(text7 is 42)|P|][?(text7 is 43)|Q|][?(text7 is 44)|R|][?(text7 is 45)|S|][?(text7 is 46)|T|][?(text7 is 47)|U|][?(text7 is 48)|V|][?(text7 is 49)|W|][?(text7 is 50)|X|][?(text7 is 51)|Y|][?(text7 is 52)|Z|][?(text7 is 53)| |][?(text7 is 54)|.|][?(text7 is 55)|,|][?(text8 is 1)|a|][?(text8 is 2)|b|][?(text8 is 3)|c|][?(text8 is 4)|d|][?(text8 is 5)|e|][?(text8 is 6)|f|][?(text8 is 7)|g|][?(text8 is 8)|h|][?(text8 is 9)|i|][?(text8 is 10)|j|][?(text8 is 11)|k|][?(text8 is 12)|l|][?(text8 is 13)|m|][?(text8 is 14)|n|][?(text8 is 15)|o|][?(text8 is 16)|p|][?(text8 is 17)|q|][?(text8 is 18)|r|][?(text8 is 19)|s|][?(text8 is 20)|t|][?(text8 is 21)|u|][?(text8 is 22)|v|][?(text8 is 23)|w|][?(text8 is 24)|x|][?(text8 is 25)|y|][?(text8 is 26)|z|][?(text8 is 27)|A|][?(text8 is 28)|B|][?(text8 is 29)|C|][?(text8 is 30)|D|][?(text8 is 31)|E|][?(text8 is 32)|F|][?(text8 is 33)|G|][?(text8 is 34)|H|][?(text8 is 35)|I|][?(text8 is 36)|J|][?(text8 is 37)|K|][?(text8 is 38)|L|][?(text8 is 39)|M|][?(text8 is 40)|N|][?(text8 is 41)|O|][?(text8 is 42)|P|][?(text8 is 43)|Q|][?(text8 is 44)|R|][?(text8 is 45)|S|][?(text8 is 46)|T|][?(text8 is 47)|U|][?(text8 is 48)|V|][?(text8 is 49)|W|][?(text8 is 50)|X|][?(text8 is 51)|Y|][?(text8 is 52)|Z|][?(text8 is 53)| |][?(text8 is 54)|.|][?(text8 is 55)|,|][?(text9 is 1)|a|][?(text9 is 2)|b|][?(text9 is 3)|c|][?(text9 is 4)|d|][?(text9 is 5)|e|][?(text9 is 6)|f|][?(text9 is 7)|g|][?(text9 is 8)|h|][?(text9 is 9)|i|][?(text9 is 10)|j|][?(text9 is 11)|k|][?(text9 is 12)|l|][?(text9 is 13)|m|][?(text9 is 14)|n|][?(text9 is 15)|o|][?(text9 is 16)|p|][?(text9 is 17)|q|][?(text9 is 18)|r|][?(text9 is 19)|s|][?(text9 is 20)|t|][?(text9 is 21)|u|][?(text9 is 22)|v|][?(text9 is 23)|w|][?(text9 is 24)|x|][?(text9 is 25)|y|][?(text9 is 26)|z|][?(text9 is 27)|A|][?(text9 is 28)|B|][?(text9 is 29)|C|][?(text9 is 30)|D|][?(text9 is 31)|E|][?(text9 is 32)|F|][?(text9 is 33)|G|][?(text9 is 34)|H|][?(text9 is 35)|I|][?(text9 is 36)|J|][?(text9 is 37)|K|][?(text9 is 38)|L|][?(text9 is 39)|M|][?(text9 is 40)|N|][?(text9 is 41)|O|][?(text9 is 42)|P|][?(text9 is 43)|Q|][?(text9 is 44)|R|][?(text9 is 45)|S|][?(text9 is 46)|T|][?(text9 is 47)|U|][?(text9 is 48)|V|][?(text9 is 49)|W|][?(text9 is 50)|X|][?(text9 is 51)|Y|][?(text9 is 52)|Z|][?(text9 is 53)| |][?(text9 is 54)|.|][?(text9 is 55)|,|][?(text10 is 1)|a|][?(text10 is 2)|b|][?(text10 is 3)|c|][?(text10 is 4)|d|][?(text10 is 5)|e|][?(text10 is 6)|f|][?(text10 is 7)|g|][?(text10 is 8)|h|][?(text10 is 9)|i|][?(text10 is 10)|j|][?(text10 is 11)|k|][?(text10 is 12)|l|][?(text10 is 13)|m|][?(text10 is 14)|n|][?(text10 is 15)|o|][?(text10 is 16)|p|][?(text10 is 17)|q|][?(text10 is 18)|r|][?(text10 is 19)|s|][?(text10 is 20)|t|][?(text10 is 21)|u|][?(text10 is 22)|v|][?(text10 is 23)|w|][?(text10 is 24)|x|][?(text10 is 25)|y|][?(text10 is 26)|z|][?(text10 is 27)|A|][?(text10 is 28)|B|][?(text10 is 29)|C|][?(text10 is 30)|D|][?(text10 is 31)|E|][?(text10 is 32)|F|][?(text10 is 33)|G|][?(text10 is 34)|H|][?(text10 is 35)|I|][?(text10 is 36)|J|][?(text10 is 37)|K|][?(text10 is 38)|L|][?(text10 is 39)|M|][?(text10 is 40)|N|][?(text10 is 41)|O|][?(text10 is 42)|P|][?(text10 is 43)|Q|][?(text10 is 44)|R|][?(text10 is 45)|S|][?(text10 is 46)|T|][?(text10 is 47)|U|][?(text10 is 48)|V|][?(text10 is 49)|W|][?(text10 is 50)|X|][?(text10 is 51)|Y|][?(text10 is 52)|Z|][?(text10 is 53)| |][?(text10 is 54)|.|][?(text10 is 55)|,|]
+
+//Template is this: [?(text1 is 1)|a|][?(text1 is 2)|b|][?(text1 is 3)|c|][?(text1 is 4)|d|][?(text1 is 5)|e|][?(text1 is 6)|f|][?(text1 is 7)|g|][?(text1 is 8)|h|][?(text1 is 9)|i|][?(text1 is 10)|j|][?(text1 is 11)|k|][?(text1 is 12)|l|][?(text1 is 13)|m|][?(text1 is 14)|n|][?(text1 is 15)|o|][?(text1 is 16)|p|][?(text1 is 17)|q|][?(text1 is 18)|r|][?(text1 is 19)|s|][?(text1 is 20)|t|][?(text1 is 21)|u|][?(text1 is 22)|v|][?(text1 is 23)|w|][?(text1 is 24)|x|][?(text1 is 25)|y|][?(text1 is 26)|z|][?(text1 is 27)|A|][?(text1 is 28)|B|][?(text1 is 29)|C|][?(text1 is 30)|D|][?(text1 is 31)|E|][?(text1 is 32)|F|][?(text1 is 33)|G|][?(text1 is 34)|H|][?(text1 is 35)|I|][?(text1 is 36)|J|][?(text1 is 37)|K|][?(text1 is 38)|L|][?(text1 is 39)|M|][?(text1 is 40)|N|][?(text1 is 41)|O|][?(text1 is 42)|P|][?(text1 is 43)|Q|][?(text1 is 44)|R|][?(text1 is 45)|S|][?(text1 is 46)|T|][?(text1 is 47)|U|][?(text1 is 48)|V|][?(text1 is 49)|W|][?(text1 is 50)|X|][?(text1 is 51)|Y|][?(text1 is 52)|Z|][?(text1 is 53)| |][?(text1 is 54)|.|][?(text1 is 55)|,|]
+
+Upgrades
+[include letter %l="a" %c="A" %a="1"]
+[include letter %l="b" %c="B" %a="2"]
+[include letter %l="c" %c="C" %a="3"]
+[include letter %l="d" %c="D" %a="4"]
+[include letter %l="e" %c="E" %a="5"]
+[include letter %l="f" %c="F" %a="6"]
+[include letter %l="g" %c="G" %a="7"]
+[include letter %l="h" %c="H" %a="8"]
+[include letter %l="i" %c="I" %a="9"]
+[include letter %l="j" %c="J" %a="10"]
+[include letter %l="k" %c="K" %a="11"]
+[include letter %l="l" %c="L" %a="12"]
+[include letter %l="m" %c="M" %a="13"]
+[include letter %l="n" %c="N" %a="14"]
+[include letter %l="o" %c="O" %a="15"]
+[include letter %l="p" %c="P" %a="16"]
+[include letter %l="q" %c="Q" %a="17"]
+[include letter %l="r" %c="R" %a="18"]
+[include letter %l="s" %c="S" %a="19"]
+[include letter %l="t" %c="T" %a="20"]
+[include letter %l="u" %c="U" %a="21"]
+[include letter %l="v" %c="V" %a="22"]
+[include letter %l="w" %c="W" %a="23"]
+[include letter %l="x" %c="X" %a="24"]
+[include letter %l="y" %c="Y" %a="25"]
+[include letter %l="z" %c="Z" %a="26"]
+[include letterb %l="spacebar" %a="53"]
+[include letterb %l="dot" %a="54"]
+[include letterb %l="comma" %a="55"]
+*letterbackspace
+	name:backspace
+	on click:
+	        if (counter is 1)
+            lose text1
+        end
+        if (counter is 2)
+            lose text2
+        end
+        if (counter is 3)
+            lose text3
+        end
+        if (counter is 4)
+            lose text4
+        end
+        if (counter is 5)
+            lose text5
+        end
+        if (counter is 6)
+            lose text6
+        end
+        if (counter is 7)
+            lose text7
+        end
+        if (counter is 8)
+            lose text8
+        end
+        if (counter is 9)
+            lose text9
+        end
+        if (counter is 10)
+            lose text10
+        end
+		end
+on click:
+lose 1 counter
+lose this
+end
+*lettershift
+	on click:
+		if (have shifttoggle)
+			lose shifttoggle
+            lose this
+		else
+			gain 1 shifttoggle
+	end
+    end
+Includes
+*include letter %l %c %a
+  *letter[%l]
+    text:[?(have shifttoggle)|[%c]|[%l]]
+    on click:
+		$insertVar=[%a]
+		if (have shifttoggle) $insertVar=$insertVar+26
+		do insert with counter
+		if (counter>10) lose counter
+        if (counter is 1)
+            lose text1
+            gain ($insertVar) text1
+        end
+        if (counter is 2)
+            lose text2
+            gain ($insertVar) text2
+        end
+        if (counter is 3)
+            lose text3
+            gain ($insertVar) text3
+        end
+        if (counter is 4)
+            lose text4
+            gain ($insertVar) text4
+        end
+        if (counter is 5)
+            lose text5
+            gain ($insertVar) text5
+        end
+        if (counter is 6)
+            lose text6
+            gain ($insertVar) text6
+        end
+        if (counter is 7)
+            lose text7
+            gain ($insertVar) text7
+        end
+        if (counter is 8)
+            lose text8
+            gain ($insertVar) text8
+        end
+        if (counter is 9)
+            lose text9
+            gain ($insertVar) text9
+        end
+        if (counter is 10)
+            lose text10
+            gain ($insertVar) text10
+        end
+        end
+		on click:lose this
+*include letterb %l %a
+  *letter[%l]
+    name:[%l]
+    on click:
+		do insert with counter
+		if (counter>10) lose counter
+        if (counter is 1)
+            lose text1
+            gain [%a] text1
+        end
+        if (counter is 2)
+            lose text2
+            gain [%a] text2
+        end
+        if (counter is 3)
+            lose text3
+            gain [%a] text3
+        end
+        if (counter is 4)
+            lose text4
+            gain [%a] text4
+        end
+        if (counter is 5)
+            lose text5
+            gain [%a] text5
+        end
+        if (counter is 6)
+            lose text6
+            gain [%a] text6
+        end
+        if (counter is 7)
+            lose text7
+            gain [%a] text7
+        end
+        if (counter is 8)
+            lose text8
+            gain [%a] text8
+        end
+        if (counter is 9)
+            lose text9
+            gain [%a] text9
+        end
+        if (counter is 10)
+            lose text10
+            gain [%a] text10
+        end
+		end
+		on click:lose this
