@@ -1,7 +1,7 @@
 Let's make a game!
 name:IGM Keyboard (Game)
 by:tgrein on discord
-desc:My keyboard.<//><//>Current Version: 2.4 Beta 2<//>Changelog:<//>The all new EXCLAMATION MARK! not we invented it, it's that these letters of emotion are now useable in the only idle game maker keyboard in existance.<//><//><b>Full Changelog:</b><//>1.0:<//>The first version, 3 character limit, a-z, spacebar and backspace.<//>1.1:<//>Introducing, the 10 character limit! ....<//>2.0:<//>The 2.0 Update! Why jump a number? Because you can shift now.<//>2.1:<//>The 2.1 Update, also known as me fix bug. Oh and also Great Wall Of If Statements.<//>2.1.1:<//>More bugfixing, plus new layout! By the way, Shift looks like it toggles now.<//>2.2:<//>Commas and Dots<//>2.2.1<//>Small fix for big change.<//><b>Beta Versions:</b><//>2.3 Beta 1<//>It's happening.... IM ON GITHUB! https://github.com/ReinIsNOTaDev/IGM-Keyboard <- there. (there's more changes, you can look if you want.)<//>2.3 Beta 2:<//>That Bug Fix!<//>2.4 Beta 1:<//>what's this? a new letter you say? okay.<//> 2.4 Beta 2:<//><.>New Exclamation Mark<//>
+desc:My keyboard.<//><//>Current Version: 2.4 Beta 3<//>Changelog:<//>Making a b u g get f i x e d.<//><//><b>Full Changelog:</b><//>1.0:<//>The first version, 3 character limit, a-z, spacebar and backspace.<//>1.1:<//>Introducing, the 10 character limit! ....<//>2.0:<//>The 2.0 Update! Why jump a number? Because you can shift now.<//>2.1:<//>The 2.1 Update, also known as me fix bug. Oh and also Great Wall Of If Statements.<//>2.1.1:<//>More bugfixing, plus new layout! By the way, Shift looks like it toggles now.<//>2.2:<//>Commas and Dots<//>2.2.1<//>Small fix for big change.<//><b>Beta Versions:</b><//>2.3 Beta 1<//>It's happening.... IM ON GITHUB! https://github.com/ReinIsNOTaDev/IGM-Keyboard <- there. (there's more changes, you can look if you want.)<//>2.3 Beta 2:<//>That Bug Fix!<//>2.4 Beta 1:<//>what's this? a new letter you say? okay.<//> 2.4 Beta 2:<//>>The all new EXCLAMATION MARK! not we invented it, it's that these letters of emotion are now useable in the only idle game maker keyboard in existance.<//>2.4 Beta 3:<//>Making a b u g get f i x e d.<//>
 version:6
 Resources
 *text1
@@ -58,7 +58,7 @@ Upgrades
 [include letter %l="x" %c="X" %a="24"]
 [include letter %l="y" %c="Y" %a="25"]
 [include letter %l="z" %c="Z" %a="26"]
-[include letterb %n="spacebar" "%l="spacebar" %a="53"]
+[include letterb %n="spacebar" %l="spacebar" %a="53"]
 [include letterb %n="." %l="dot" %a="54"]
 [include letterb %n="," %l="comma" %a="55"]
 [include letterb %n="!" %l="exclamationmark" %a="58"]
