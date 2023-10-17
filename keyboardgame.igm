@@ -244,6 +244,7 @@ $insertVar=[%a]
 if (have shifttoggle) $insertVar=$insertVar+26
 if (no ach1) gain ($insertVar)
 end
+end
 		on click:lose this
 *include letterb %l %a %n
   *letter[%l]
