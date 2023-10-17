@@ -172,7 +172,6 @@ Includes
     on click:
 		$insertVar=[%a]
 		if (have shifttoggle) $insertVar=$insertVar+26
-                if (no ach1) gain ($inserVar) fircli
 		do insert with counter
 		if (counter>16) lose counter
         if (counter is 1)
@@ -240,6 +239,11 @@ Includes
             gain ($insertVar) text16
         end
         end
+on click:
+$insertVar=[%a]
+if (have shifttoggle) $insertVar=$insertVar+26
+if (no ach1) gain ($inserVar)
+end
 		on click:lose this
 *include letterb %l %a %n
   *letter[%l]
