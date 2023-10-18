@@ -239,12 +239,11 @@ Includes
             gain ($insertVar) text16
         end
         end
-        on click:
-            $insertVar=[%a]
-            if (have shifttoggle) $insertVar=$insertVar+26
-            if (no ach1) gain ($insertVar) fircli
-        end
-        end
+on click:
+    $insertVar=[%a]
+    if (have shifttoggle) $insertVar=$insertVar+26
+    if (no ach1) gain ($insertVar) fircli
+end
 		on click:lose this
 *include letterb %l %a %n
   *letter[%l]
