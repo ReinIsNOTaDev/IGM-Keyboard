@@ -5,7 +5,7 @@ desc:My keyboard.<//><//>Current Version: 2.4 Beta 11<//>Changelog:<//>Hey! It's
 version:9
 Resources
 *update|updates
-on start:gain 9 updatea
+on start:gain 9 updates
 on load:
 if ((updates)<9)
 toast Hey! There's a new update. More information in the info button.
