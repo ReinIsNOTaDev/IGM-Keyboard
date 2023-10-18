@@ -233,7 +233,7 @@ Includes
 		$insertVar=[%a]
 		if (have shifttoggle) $insertVar=$insertVar+26
 		do insert with counter
-		if (counter>20) lose counter
+		if (counter>24) lose counter
         if (counter is 1)
             lose text1
             gain ($insertVar) text1
@@ -343,7 +343,7 @@ end
     name:[%n]
     on click:
 		do insert with counter
-		if (counter>20) lose counter
+		if (counter>24) lose counter
         if (no ach1) gain [%a] fircli
         if (counter is 1)
             lose text1
