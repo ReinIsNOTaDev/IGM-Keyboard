@@ -240,9 +240,9 @@ Includes
         end
         end
 on click:
-$insertVar=[%a]
-if (have shifttoggle) $insertVar=$insertVar+26
-if (no ach1) gain ($insertVar)
+    $insertVar=[%a]
+    if (have shifttoggle) $insertVar=$insertVar+26
+    if (no ach1) gain ($insertVar) fircli
 end
 end
 		on click:lose this
