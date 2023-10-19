@@ -61,6 +61,7 @@ end
 *shifttoggle
 *counter
 	on insert:
+    if (counter<32)
 		gain 1 counter
 	end
 *text
@@ -246,11 +247,18 @@ Upgrades
         if (counter is 32)
             lose text32
         end
+        if (counter is 33)
+            lose text32
+        end
 		end
-on click:
-lose 1 counter
-lose this
-end
+        on click:
+            if (counter<32)
+                lose 1 counter
+            else 
+                lose 2 counter
+            end
+                lose this
+            end
 *lettershift
 	on click:
 		if (have shifttoggle)
@@ -413,7 +421,7 @@ end
 		do insert with counter
 		if (counter>32)
             toast Hit Maximum Letters.
-
+        end
         if (no ach1) gain [%a] fircli
         if (counter is 1)
             lose text1
