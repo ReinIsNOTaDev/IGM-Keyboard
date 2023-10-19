@@ -562,4 +562,4 @@ req:have fircli
 *ach2
 name:Actually, I don't want that.
 desc:Use backspace or cleartext
-req: (have backspaceclick or have cleartext:click)
+req: (have backspaceclick or have cleartext:clicks)
