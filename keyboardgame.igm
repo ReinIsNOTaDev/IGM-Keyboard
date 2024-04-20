@@ -19,9 +19,9 @@ gain 9 updates
 end
 end
 *betaupdate|betaupdates
-on start:gain 15 betaupdates
+on start:gain 16 betaupdates
 on load:
-if ((updates)<15)
+if ((updates)<16)
 toast Hey! There's a new beta update. More information in the info button.
 lose betaupdates
 gain 14 betaupdates
