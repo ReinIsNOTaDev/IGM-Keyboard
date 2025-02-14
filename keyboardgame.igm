@@ -29,39 +29,38 @@ end
 end
 *fircli
 *text
-*text1
-    always:
-*text2
-*text3
-*text4
-*text5
-*text6
-*text7
-*text8
-*text9
-*text10
-*text11
-*text12
-*text13
-*text14
-*text15
-*text16
-*text17
-*text18
-*text19
-*text20
-*text21
-*text22
-*text23
-*text24
-*text25
-*text26
-*text27
-*text28
-*text29
-*text30
-*text31
-*text32
+[include texttemp %n="1"]
+[include texttemp %n="2"]
+[include texttemp %n="3"]
+[include texttemp %n="4"]
+[include texttemp %n="5"]
+[include texttemp %n="6"]
+[include texttemp %n="7"]
+[include texttemp %n="8"]
+[include texttemp %n="9"]
+[include texttemp %n="10"]
+[include texttemp %n="11"]
+[include texttemp %n="12"]
+[include texttemp %n="13"]
+[include texttemp %n="14"]
+[include texttemp %n="15"]
+[include texttemp %n="16"]
+[include texttemp %n="17"]
+[include texttemp %n="18"]
+[include texttemp %n="19"]
+[include texttemp %n="20"]
+[include texttemp %n="21"]
+[include texttemp %n="22"]
+[include texttemp %n="23"]
+[include texttemp %n="24"]
+[include texttemp %n="25"]
+[include texttemp %n="26"]
+[include texttemp %n="27"]
+[include texttemp %n="28"]
+[include texttemp %n="29"]
+[include texttemp %n="30"]
+[include texttemp %n="31"]
+[include texttemp %n="32"]
 *shifttoggle
 *counter
 	on insert:
