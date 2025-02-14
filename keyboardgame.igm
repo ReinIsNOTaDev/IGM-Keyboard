@@ -1,7 +1,7 @@
 Let's make a game!
 name:IGM Keyboard (Game)
 by:tgrein on discord
-desc:My keyboard.<//><//>Current Version: 4.0 Beta 3<//>Changelog:<//>more bugfixes (fixes compatibility layer)<//><//><b>Full Changelog:</b><//>1.0:<//>The first version, 3 character limit, a-z, spacebar and backspace.<//>1.1:<//>Introducing, the 10 character limit! ....<//>2.0:<//>The 2.0 Update! Why jump a number? Because you can shift now.<//>2.1:<//>The 2.1 Update, also known as me fix bug. Oh and also Great Wall Of If Statements.<//>2.1.1:<//>More bugfixing, plus new layout! By the way, Shift looks like it toggles now.<//>2.2:<//>Commas and Dots<//>2.2.1:<//>Small fix for big change.<//>2.3:<//>Hello in Sixteen Letters! IGM Keyboard has upgraded to a whopping 16 letters!<//>2.4:<//><.>Added 15 characters<.>Clear Text button!<.>New Update Announcement System<//><b>Beta Versions:</b><//>2.3 Beta 1<//>It's happening.... IM ON GITHUB! https://github.com/ReinIsNOTaDev/IGM-Keyboard <- there. (there's more changes, you can look if you want.)<//>2.3 Beta 2:<//>That Bug Fix!<//>2.4 Beta 1:<//>what's this? a new letter you say? okay.<//> 2.4 Beta 2:<//>>The all new EXCLAMATION MARK! not we invented it, it's that these letters of emotion are now useable in the only idle game maker keyboard in existance.<//>2.4 Beta 3:<//>Making a b u g get f i x e d.<//>2.4 Beta 4:<//>Oh it was too looooooooooooong? Ok.<//>2.4 Beta 5:<//>The bug that keeps on giving<//>2.4 Beta 6:<//>Ever wanted to ask in idle game maker? Write take-out or father-in-law (for some reason)? Well you can!<//>2.4 Beta 7:<//>Felt like backspace and spacebar to clear characters are painful? Well now you can clear it ALL with the clear text button!<//>2.4 Beta 8:<//><.>Numbers are now in the Keyboard!><//>2.4 Beta 9:<//>Changing Number Names<//>2.4 Beta 10:<//>Is it a game now? It has achievements, so there's that.<//>2.4 Beta 11:<//>Hey! It's a new update. And I will make sure that you know.<//>3.0 Beta 1:<//>24 Characters, now available.<//>3.0 Beta 2:<//>32 CHARACTERS!?!?!??!?!???!!?!?<//>In other news, there's a new achievement.<//>3.0 Beta 3:<//>i came bak. and now there's a blinking line.<//>3.0 Beta 4:<//>Line Space Bugfix<//>4.0 Beta 1:<//>Massive Update that makes text be consolidated (kinda, text processing is still manual, and this wont make text unlimited)<//>4.0 Beta 2:<//>bugfixes<//>4.0 Beta 3:<//>more bugfixes (fixes compatibility layer)
+desc:My keyboard.<//><//>Current Version: <//>4.0 Beta 4<//>Changelog:<//>i just realized ^ is not an operation in idle game maker :DD<//><//><b>Full Changelog:</b><//>1.0:<//>The first version, 3 character limit, a-z, spacebar and backspace.<//>1.1:<//>Introducing, the 10 character limit! ....<//>2.0:<//>The 2.0 Update! Why jump a number? Because you can shift now.<//>2.1:<//>The 2.1 Update, also known as me fix bug. Oh and also Great Wall Of If Statements.<//>2.1.1:<//>More bugfixing, plus new layout! By the way, Shift looks like it toggles now.<//>2.2:<//>Commas and Dots<//>2.2.1:<//>Small fix for big change.<//>2.3:<//>Hello in Sixteen Letters! IGM Keyboard has upgraded to a whopping 16 letters!<//>2.4:<//><.>Added 15 characters<.>Clear Text button!<.>New Update Announcement System<//><b>Beta Versions:</b><//>2.3 Beta 1<//>It's happening.... IM ON GITHUB! https://github.com/ReinIsNOTaDev/IGM-Keyboard <- there. (there's more changes, you can look if you want.)<//>2.3 Beta 2:<//>That Bug Fix!<//>2.4 Beta 1:<//>what's this? a new letter you say? okay.<//> 2.4 Beta 2:<//>>The all new EXCLAMATION MARK! not we invented it, it's that these letters of emotion are now useable in the only idle game maker keyboard in existance.<//>2.4 Beta 3:<//>Making a b u g get f i x e d.<//>2.4 Beta 4:<//>Oh it was too looooooooooooong? Ok.<//>2.4 Beta 5:<//>The bug that keeps on giving<//>2.4 Beta 6:<//>Ever wanted to ask in idle game maker? Write take-out or father-in-law (for some reason)? Well you can!<//>2.4 Beta 7:<//>Felt like backspace and spacebar to clear characters are painful? Well now you can clear it ALL with the clear text button!<//>2.4 Beta 8:<//><.>Numbers are now in the Keyboard!><//>2.4 Beta 9:<//>Changing Number Names<//>2.4 Beta 10:<//>Is it a game now? It has achievements, so there's that.<//>2.4 Beta 11:<//>Hey! It's a new update. And I will make sure that you know.<//>3.0 Beta 1:<//>24 Characters, now available.<//>3.0 Beta 2:<//>32 CHARACTERS!?!?!??!?!???!!?!?<//>In other news, there's a new achievement.<//>3.0 Beta 3:<//>i came bak. and now there's a blinking line.<//>3.0 Beta 4:<//>Line Space Bugfix<//>4.0 Beta 1:<//>Massive Update that makes text be consolidated (kinda, text processing is still manual, and this wont make text unlimited)<//>4.0 Beta 2:<//>bugfixes<//>4.0 Beta 3:<//>more bugfixes (fixes compatibility layer)<//>4.0 Beta 4:<//>i just realized ^ is not an operation in idle game maker :DD
 version:9
 Settings
 background:https://raw.githubusercontent.com/ReinIsNOTaDev/IGM-Keyboard/c5c8e41270d8a90e7ea6e9928d34a33855d30f9b/igmkeyboardbg.png
@@ -129,7 +129,7 @@ Upgrades
 	name:backspace
 	on click:
         gain 1 backspaceclick
-        text=text-((floor(text/(10^(counter*2)/100))/100-floor(floor(text/(10^(counter*2)/100))/100))*100)*10^(counter*2)/100
+        text=text-((floor(text/(pow(10,counter*2)/100))/100-floor(floor(text/(pow(10,counter*2)/100))/100))*100)*pow(10,counter*2)/100
     end
     on click:
         if (counter<32)
@@ -158,7 +158,7 @@ Includes
 		if (have shifttoggle) $insertVar=$insertVar+26
 		do insert with counter
 		if (counter>32) lose counter
-        $textInsert=$insertVar*(10^(counter*2)/10)
+        $textInsert=$insertVar*(pow(10,counter*2)/10)
         gain ($textInsert) text
         end
     on click:
@@ -176,13 +176,13 @@ Includes
 		if (counter>32)
             toast Hit Maximum Letters.
         end
-        $textInsert=$insertVar*(10^(counter*2)/10)
+        $textInsert=$insertVar*(pow(10,counter*2)/10)
         gain ($textInsert) text
 	end
 	on click:lose this
 *include texttemp %n
   *text[%n]
-    is always:(floor(text/(10^([%n]*2)/100)))
+    is always:(floor(text/(pow(10,([%n]*2)/100)))
 Achievements
 *ach1
 name:Your First Letter!
