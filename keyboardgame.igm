@@ -182,7 +182,7 @@ Includes
 	on click:lose this
 *include texttemp %n
   *text[%n]
-    is always:(floor(text/(pow(10,([%n]*2)/100)))
+    is always:floor(text/(pow(10,([%n]*2)/100)))
 Achievements
 *ach1
 name:Your First Letter!
