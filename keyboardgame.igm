@@ -181,7 +181,7 @@ Includes
 	end
 	on click:lose this
 *include texttemp %n
-  *temp[%n]
+  *text[%n]
     is always:(floor(text/(10^([%n]*2)/100))/100-floor(floor(text/(10^([%n]*2)/100))/100))*100
 Achievements
 *ach1
